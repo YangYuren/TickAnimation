@@ -20,6 +20,9 @@ class ViewController: UIViewController, AnimationRightDelegate {
         let animTick = AnimationRightView(frame: CGRect(x: 100, y: 200, width: 50, height: 50), backColor: UIColor.green.withAlphaComponent(0.5), tickColor: UIColor.white)
         animTick.delegate = self
         view.addSubview(animTick)
+        
+        
+        print("This a test")
     }
     
     //delegate

@@ -6,7 +6,7 @@
 //  Copyright © 2018年 Aeyanr. All rights reserved.
 //
 
-import UIKit
+import UIKit 
 
 @objc protocol AnimationRightDelegate: NSObjectProtocol {
     
